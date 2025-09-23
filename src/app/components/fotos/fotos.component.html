@@ -1,0 +1,27 @@
+<!-- <div class="mb-3">
+  <h5>Total de imágenes: {{ (items | async)?.length ?? 0 }} / 20</h5>
+</div> -->
+<div class="mb-3">
+  <label>Total de imágenes: {{ (items | async)?.length ?? 0 }} / 20</label>
+  <div class="progress">
+    <div
+      class="progress-bar"
+      role="progressbar"
+      [style.width.%]="(((items | async)?.length ?? 0) / 20) * 100"
+      [attr.aria-valuenow]="(items | async)?.length ?? 0"
+      aria-valuemin="0"
+      aria-valuemax="20"
+    ></div>
+  </div>
+</div>
+<div class="card-columns">
+  <div class="card" *ngFor="let item of items | async">
+    <img class="card-img-top" [src]="item.url" />
+    <div class="card-body">
+      <h5 class="card-title">{{ item.nombre }}</h5>
+      <button class="btn btn-danger btn-sm" (click)="eliminar(item)">
+        Eliminar
+      </button>
+    </div>
+  </div>
+</div>
