@@ -15,13 +15,19 @@ Este proyecto se desarrolló como práctica para reforzar conceptos clave como:
 
 ## 📸 Demo
 
-🔗 **Visita la demo en línea:** _(aún por publicar en Netlify/Vercel)_
+🔗 **Visita la demo en línea:** [Fotos Firebase App en Netlify](https://melodic-mooncake-69f589.netlify.app)
 
 - **Pantalla principal** – Selección de archivos para subir  
-  ![Carga de imágenes](https://raw.githubusercontent.com/david99cartagena/fotosfirebase/main/assets/drop-images.png)
+  ![Carga de imágenes](https://raw.githubusercontent.com/david99cartagena/FotosFirebase/refs/heads/main/media/Screenshot_1.png)
 - **Carga de imágenes** con progreso visual
+  ![Carga de imágenes](https://raw.githubusercontent.com/david99cartagena/FotosFirebase/refs/heads/main/media/Screenshot_2.png)
 - **Visualización de imágenes subidas**
+  ![Carga de imágenes](https://raw.githubusercontent.com/david99cartagena/FotosFirebase/refs/heads/main/media/Screenshot_3.png)
 - **Eliminación de imágenes** con confirmación
+  ![Carga de imágenes](https://raw.githubusercontent.com/david99cartagena/FotosFirebase/refs/heads/main/media/Screenshot_4.png)
+  ![Carga de imágenes](https://raw.githubusercontent.com/david99cartagena/FotosFirebase/refs/heads/main/media/Screenshot_5.png)
+- **Firebase ( Firestore y Storage )**
+  ![Carga de imágenes](https://raw.githubusercontent.com/david99cartagena/FotosFirebase/refs/heads/main/media/Screenshot_6.png)
 
 ## 🚀 Tecnologías Utilizadas
 
